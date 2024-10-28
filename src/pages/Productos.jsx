@@ -2,10 +2,14 @@ import React from 'react';
 import './Productos.css';
 
 const Productos = () => {
+  
+  
+  
   const productosList = [
     { id: 1, nombre: "Producto 1", descripcion: "Descripción del producto 1", precio: "$100" },
     { id: 2, nombre: "Producto 2", descripcion: "Descripción del producto 2", precio: "$150" },
     { id: 3, nombre: "Producto 3", descripcion: "Descripción del producto 3", precio: "$200" },
+    { id: 4, nombre: "Producto 4", descripcion: "Descripción del producto 4", precio: "$250" },
   ];
 
   return (

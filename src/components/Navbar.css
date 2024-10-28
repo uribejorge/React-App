@@ -1,21 +1,33 @@
-/* Navbar.css */
 nav {
-    background-color: #333;
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  nav a:hover {
-    color: #ffa500; /* Cambia este color según la paleta de la maquetación */
-  }
+  background-color: #590bea;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: white;
+  margin: 0 3rem;
+  padding: 0.8rem 2.5rem; /* Espacio horizontal aumentado para hacer los botones más largos */
+  background-color: #007bff o #00aaff; /* Fondo inicial del botón */
+  border-radius: 8px; /* Bordes redondeados */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  background-color: #ffa500; /* Fondo al pasar el cursor */
+  color: #333; /* Color de texto más oscuro al hacer hover */
+  transform: scale(1.05); /* Efecto de crecimiento sutil */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra en el hover */
+}
+
+nav a:active {
+  transform: scale(0.98); /* Efecto de presión al hacer clic */
+  background-color: #ff8c00; /* Color de fondo al hacer clic */
+}
+
   
