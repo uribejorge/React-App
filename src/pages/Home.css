@@ -1,0 +1,12 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Ajusta la altura según la maquetación */
+    background-color: #f4f4f9; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    font-weight: bold;
+  }
+  

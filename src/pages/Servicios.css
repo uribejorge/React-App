@@ -1,0 +1,33 @@
+/* Servicios.css */
+.servicios-container {
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333
+
+  }
+  
+  .servicios-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .servicio-item {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .servicio-item h2 {
+    font-size: 1.5rem;
+    color: #007bff; /* Ajusta este color según la paleta del proyecto */
+  }
+  
+  .servicio-item p {
+    font-size: 1rem;
+    color: #555;
+  }

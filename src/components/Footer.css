@@ -1,0 +1,38 @@
+/* Estilos del footer */
+.footer {
+    background-color: #007bff; /* Color de fondo del footer */
+    color: #fff; /* Color del texto del footer */
+    text-align: center;
+    padding: 1rem; /* Espaciado interno */
+    margin-top: 32rem; /* Ajusta este margen superior para espaciar el footer */
+    position: relative; /* Mantiene el footer en el flujo del documento */
+    bottom: 0; /* Puede eliminarse si no es necesario */
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+}
+
+.footer-content {
+    max-width: 1200px; /* Ancho máximo para el contenido del footer */
+    margin: auto; /* Centra el contenido */
+    padding: 1rem; /* Añadir relleno al contenido si es necesario */
+}
+
+.footer-links {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno por defecto */
+    margin: 1rem 0; /* Añadir margen superior e inferior para separación */
+}
+
+.footer-links li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 1rem; /* Espaciado entre enlaces */
+}
+
+.footer-links a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
